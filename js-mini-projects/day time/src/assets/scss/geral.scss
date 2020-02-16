@@ -1,0 +1,38 @@
+$bg-color: #6767ff;
+$font1: #fff;
+
+body {
+    background: $bg-color;
+    color: $font1;
+    font: {
+        size: 1.3em;
+        family:  Arial, sans-serif;
+    };
+
+    header {
+        font-size: 2em;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    section {
+        width: 50%;
+        padding: 15px;
+        border-radius: 10px;
+        
+        margin: auto;
+        color: #333;
+        background: $font1;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.3);
+        p {
+            padding: 10px;
+        }
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px 0;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,61 @@
+$primary-color: #8585ff;
+$second-color: #fff;
+$third-color: #222;
+
+
+
+body    {
+    color: #fff;
+    background: $primary-color;
+    font: {
+        size: 1.3em;
+        family: Arial, Helvetica, sans-serif;
+    };
+
+    header {
+        h1 {
+            padding: 15px 0;
+
+            font-size: 2em;
+            text-align: center;
+        }
+    }
+
+    section {
+
+        color: $third-color;
+        padding: 10px;
+        margin: auto;
+        width: 50%;
+        border-radius: 10px;
+        background: $second-color;
+        box-shadow: 5px 5px 10px $third-color;
+
+        p {
+            padding: 10px 0;
+        }
+        
+        input {
+            color: $third-color;
+            border-radius: 4px;
+            border: 1px solid $primary-color;
+            padding: 5px;
+        }
+
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px 0;
+        font-style: italic;
+    }
+}
+
+.btn {
+    border: 1px solid $second-color;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: $primary-color;
+    color: $second-color;
+}

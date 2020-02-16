@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icon.png" type="image/png">
+    
+    <title>Age checker</title>
+</head>
+<body>
+    <header>
+        <h1>Age checker</h1>
+    </header>
+    <section>
+        <div class="form">
+            <p>
+                Ano de nascimento:
+                <input type="number" name="born" class="birth">
+            </p>
+            
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="masc">Feminino</label>
+
+            </p>
+
+            <input type="button" class="btn" value="Verificar" onclick="check()">
+        </div>
+
+        <div class="msg">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em vídeo</p>
+
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -25,8 +25,4 @@ export const Container = styled.div`
       margin-left: 1rem;
     }
   }
-
-  ${media.lessThan('medium')`
-    display: none;
-  `}
 `;

@@ -18,12 +18,6 @@ export const LogoMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  ${media.lessThan('medium')`
-    height: auto;
-
-    flex-direction: column;
-  `}
 `;
 
 export const Logo = styled.div`
@@ -33,34 +27,18 @@ export const Logo = styled.div`
     font-size: 2.5rem;
     font-weight: 700;
   }
-
-  ${media.lessThan('medium')`
-    margin: 0 auto;
-  `}
 `;
 
 export const MenuItems = styled.div`
   flex: row;
   display: flex;
+  padding: 1rem;
 
   a {
     padding: 0.5rem;
 
     color: #fff;
-    font-weight: 600;
     font-size: 1.5rem;
     text-decoration: none;
   }
-
-  ${media.lessThan('medium')`
-    a {
-      font-weight: 500;
-    }
-  `}
-
-  ${media.lessThan('small')`
-    a {
-      font-size: 1rem;
-    }
-  `}
 `;

@@ -31,11 +31,12 @@ export const Logo = styled.div`
   margin-left: 1rem;
   span {
     color: #fff;
-    font-size: 2.5rem;
     font-weight: 700;
+    font-size: 2.5rem;
   }
 
   ${media.lessThan('medium')`
+    padding: 1rem;
     margin: 0 auto;
   `}
 `;
@@ -54,6 +55,7 @@ export const MenuItems = styled.div`
   }
 
   ${media.lessThan('medium')`
+    padding: 0 0 1rem 0;
     a {
       font-weight: 500;
     }

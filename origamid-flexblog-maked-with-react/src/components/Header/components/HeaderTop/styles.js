@@ -22,7 +22,13 @@ export const Container = styled.div`
     color: #fff;
 
     p {
-      margin-left: 1rem;
+      &:first-child {
+        margin-left: 1rem;
+      }
     }
   }
+
+  ${media.lessThan('medium')`
+    display: none;
+  `}
 `;

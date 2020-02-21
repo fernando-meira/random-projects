@@ -7,7 +7,7 @@ import product2 from '../../assets/produtos2.jpg';
 import product3 from '../../assets/produtos3.jpg';
 
 export default function Products() {
-  const [items, setItems] = useState([
+  const [items] = useState([
     {
       id: 1,
       color: 'Purple',

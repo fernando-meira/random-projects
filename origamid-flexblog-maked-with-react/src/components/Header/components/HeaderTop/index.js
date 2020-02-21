@@ -8,7 +8,7 @@ export default function HeaderTop() {
       <div>
         <p>Seg / Sex - 08:00 às 18:00</p>
         <p>+55 21 9999-9999</p>
-        <p className="Adress">Av. Ali Perto, 330, Botafogo - RJ</p>
+        <p>Av. Ali Perto, 330, Botafogo - RJ</p>
       </div>
     </Container>
   );

@@ -14,6 +14,7 @@ export default createGlobalStyle`
 
   body {
     background: #fff;
+    overflow-x: hidden;
     font-family: "Nunito", Helvetica, Arial, sans-serif;
   }
 `;

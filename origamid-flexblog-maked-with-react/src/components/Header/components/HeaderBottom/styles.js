@@ -36,6 +36,7 @@ export const Logo = styled.div`
   }
 
   ${media.lessThan('medium')`
+    padding: 1rem;
     margin: 0 auto;
   `}
 `;
@@ -43,16 +44,17 @@ export const Logo = styled.div`
 export const MenuItems = styled.div`
   flex: row;
   display: flex;
+  padding: 1rem 0;
 
   a {
     margin-right: 1rem;
     color: #fff;
-    font-weight: 600;
     font-size: 1.5rem;
     text-decoration: none;
   }
 
   ${media.lessThan('medium')`
+    padding: 0 0 1rem 0;
     a {
       font-weight: 500;
       padding-bottom: 1rem;

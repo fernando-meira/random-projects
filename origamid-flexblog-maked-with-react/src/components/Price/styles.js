@@ -12,8 +12,8 @@ export const Container = styled.section`
 `;
 
 export const Block = styled.div`
-  margin: 1.25rem 10px;
   padding: 1.25rem;
+  margin: 1.25rem 10px;
   border: 0.25rem solid #fafafa;
 
   h2 {
@@ -48,8 +48,8 @@ export const Block = styled.div`
       padding: 0.5rem;
 
       list-style: none;
-      font-size: 1.25rem;
       font-style: italic;
+      font-size: 1.25rem;
 
       color: #7c7c7c;
     }

@@ -19,7 +19,7 @@ export default function Price() {
           <li>Suporte 24h</li>
         </ul>
 
-        <a href="#">Comprar</a>
+        <a href="a">Comprar</a>
       </Block>
 
       <Block>

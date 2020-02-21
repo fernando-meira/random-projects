@@ -60,4 +60,32 @@ export const Container = styled.section`
       }
     }
   `}
+
+  ${media.lessThan('small')`
+
+    padding: 2rem 0;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  div {
+      div {
+        margin: 0;
+        max-width: 6.5rem;
+
+        justify-content: space-between;
+
+        p {
+          padding: 1rem 0.5rem;
+
+          font-size: 2rem;
+        }
+
+        img {
+          max-width: 6.5rem;
+        }
+      }
+    }
+  `}
 `;

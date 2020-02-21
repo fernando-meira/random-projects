@@ -9,7 +9,7 @@ export default function Main() {
     <Container>
       <About />
       <Products />
-      <Price />
+      {/* <Price /> */}
     </Container>
   );
 }

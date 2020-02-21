@@ -5,6 +5,7 @@ import media from 'styled-media-query';
 export const Container = styled.header`
   width: 100%;
   height: auto;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
 
   display: flex;
 
@@ -30,8 +31,8 @@ export const Logo = styled.div`
   margin-left: 1rem;
   span {
     color: #fff;
-    font-size: 2.5rem;
     font-weight: 700;
+    font-size: 2.5rem;
   }
 
   ${media.lessThan('medium')`
@@ -44,8 +45,7 @@ export const MenuItems = styled.div`
   display: flex;
 
   a {
-    padding: 0.5rem;
-
+    margin-right: 1rem;
     color: #fff;
     font-weight: 600;
     font-size: 1.5rem;
@@ -55,6 +55,7 @@ export const MenuItems = styled.div`
   ${media.lessThan('medium')`
     a {
       font-weight: 500;
+      padding-bottom: 1rem;
     }
   `}
 

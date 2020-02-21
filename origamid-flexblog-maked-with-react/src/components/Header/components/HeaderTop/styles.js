@@ -11,9 +11,13 @@ export const Container = styled.div`
 
   background: #122ab2;
 
+  ${media.lessThan('small')`
+    height: auto;
+  `}
+
   div {
-    margin: 0 auto;
     width: 60rem;
+    margin: 0 auto;
 
     display: flex;
     align-items: center;
@@ -22,11 +26,18 @@ export const Container = styled.div`
     color: #fff;
 
     p {
-      margin-left: 1rem;
+      margin: 1rem;
     }
   }
 
-  ${media.lessThan('medium')`
-    display: none;
+  ${media.lessThan('small')`
+    width: 100%;
+
+    P {
+      margin: 0.1rem !important;
+
+      font-size: 0.6rem;
+
+    }
   `}
 `;

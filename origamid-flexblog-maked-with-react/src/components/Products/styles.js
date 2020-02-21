@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const Container = styled.section`
   width: 60rem;
@@ -14,8 +15,8 @@ export const Container = styled.section`
     max-width: 100%;
 
     display: flex;
-    align-items: flex-end;
     flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: space-between;
 
     div {
@@ -40,6 +41,23 @@ export const Container = styled.section`
       }
     }
   }
-`;
+  ${media.lessThan('medium')`
+    width: 90%;
+    height: auto;
 
-export const Card = styled.div``;
+    div {
+      div {
+        margin: 0;
+        max-width: 14rem;
+
+        p {
+          padding: 1rem 0.5rem;
+        }
+
+        img {
+          max-width: 14rem;
+        }
+      }
+    }
+  `}
+`;

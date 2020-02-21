@@ -14,14 +14,14 @@ export default function Products() {
       img: product1,
     },
     {
-      id: 2,
-      color: 'Pink',
-      img: product2,
-    },
-    {
       id: 3,
       color: 'Blue',
       img: product3,
+    },
+    {
+      id: 2,
+      color: 'Pink',
+      img: product2,
     },
   ]);
 

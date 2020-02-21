@@ -10,9 +10,15 @@ export const H1 = styled.h1`
   line-height: 1;
   font-size: 3rem;
 
+  ${media.lessThan('medium')`
+    width: 90%;
+
+    padding: 3rem 0 3rem 3rem;
+  `}
+
   ${media.lessThan('small')`
-    width: 100%;
-    padding: 20px;
+    width: 90%;
+    padding: 2rem;
 
     font-size: 1.5rem;
   `}
@@ -28,11 +34,15 @@ export const Container = styled.section`
   display: flex;
 
   ${media.lessThan('medium')`
-    width: 100%;
+    width: 90%;
+    border-top: 1px solid #2c70ff;
+    border-bottom: 1px solid #2c70ff;
   `}
 
   ${media.lessThan('small')`
     padding: 2rem 0;
+
+    flex-direction: column;
   `}
 `;
 
@@ -58,6 +68,7 @@ export const TextAbout = styled.div`
 
     p {
       min-width: 18rem;
+      font-size: 1.5rem;
     }
   `}
 

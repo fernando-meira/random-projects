@@ -18,7 +18,7 @@ export const H1 = styled.h1`
 
   ${media.lessThan('small')`
     width: 90%;
-    padding: 2rem;
+    padding: 2rem 0 2rem 2rem;
 
     font-size: 1.5rem;
   `}

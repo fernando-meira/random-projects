@@ -8,7 +8,7 @@ export const Container = styled.section`
 
   h2 {
     font-size: 3rem;
-    margin: 0 0 1rem 1rem;
+    /* margin: 0 0 1rem 1rem; */
   }
 
   div {
@@ -41,8 +41,11 @@ export const Container = styled.section`
       }
     }
   }
-  ${media.lessThan('medium')`
+  ${media.lessThan('large')`
     width: 90%;
+  `}
+
+  ${media.lessThan('medium')`
     height: auto;
 
     div {

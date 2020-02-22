@@ -63,6 +63,7 @@ export const MenuItems = styled.div`
 
   ${media.lessThan('small')`
     a {
+      padding: 0;
       font-size: 1rem;
     }
   `}

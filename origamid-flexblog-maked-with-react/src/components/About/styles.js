@@ -95,11 +95,20 @@ export const ImgAbout = styled.div`
 
   ${media.lessThan('medium')`
     img {
-      max-width: 11.5rem;
-      min-width: 8rem;
       height: auto;
+      min-width: 8rem;
+      max-width: 11.5rem;
 
       margin: 0.5rem;
+    }
+  `}
+
+  ${media.lessThan('small')`
+    justify-content: center;
+
+    img {
+      width: auto;
+      max-height: 12.5rem;
     }
   `}
 `;

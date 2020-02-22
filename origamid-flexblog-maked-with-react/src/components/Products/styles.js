@@ -77,12 +77,16 @@ export const Container = styled.section`
         margin: 0;
         max-width: 6.5rem;
 
+        display: flex;
+
         justify-content: space-between;
 
         p {
           padding: 1rem 0.5rem;
 
-          font-size: 2rem;
+          font-size: 1.5rem;
+
+          justify-content: center;
         }
 
         img {

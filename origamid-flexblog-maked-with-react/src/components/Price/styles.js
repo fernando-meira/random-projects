@@ -4,7 +4,7 @@ import media from 'styled-media-query';
 
 export const Container = styled.section`
   padding: 3.75rem;
-  background: #9997;
+  background: #eee;
 
   display: flex;
   align-items: flex-end;

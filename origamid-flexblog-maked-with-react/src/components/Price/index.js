@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Block } from './styles';
+import { Container, Block, PlanValue, PlanList } from './styles';
 
 export default function Price() {
   return (
@@ -8,16 +8,16 @@ export default function Price() {
       <Block>
         <h2>Cobre</h2>
 
-        <span>
+        <PlanValue>
           R$ <p>19,00</p>
-        </span>
+        </PlanValue>
 
-        <ul>
+        <PlanList>
           <li>Planos Limitados</li>
           <li>Acesso Restrito</li>
           <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
-        </ul>
+        </PlanList>
 
         <a href="a">Comprar</a>
       </Block>
@@ -25,17 +25,17 @@ export default function Price() {
       <Block>
         <h2>Prata</h2>
 
-        <span>
+        <PlanValue>
           R$ <p>39,00</p>
-        </span>
+        </PlanValue>
 
-        <ul>
+        <PlanList>
           <li>Planos Limitados</li>
           <li>Acesso Restrito</li>
           <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
           <li>Compras Exclusivas</li>
-        </ul>
+        </PlanList>
 
         <a href="#">Comprar</a>
       </Block>
@@ -43,18 +43,18 @@ export default function Price() {
       <Block>
         <h2>Ouro</h2>
 
-        <span>
+        <PlanValue>
           R$ <p>79,00</p>
-        </span>
+        </PlanValue>
 
-        <ul>
+        <PlanList>
           <li>Planos Limitados</li>
           <li>Acesso Restrito</li>
           <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
           <li>Compras exclusivas</li>
           <li>Download dos Items</li>
-        </ul>
+        </PlanList>
 
         <a href="#">Comprar</a>
       </Block>

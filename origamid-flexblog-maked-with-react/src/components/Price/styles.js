@@ -17,6 +17,11 @@ export const Container = styled.section`
   ${media.lessThan('medium')`
     padding: 2.5rem 2rem;
   `}
+
+  ${media.lessThan('small')`
+    flex-direction: column;
+    align-items: center;
+  `}
 `;
 
 export const Block = styled.div`
@@ -65,6 +70,13 @@ export const Block = styled.div`
       font-size: 2rem;
   }
   `}
+
+  ${media.lessThan('small')`
+    max-width: none;
+    width: 100%;
+
+    margin-bottom: 2.5rem;
+  `}
 `;
 
 export const PlanValue = styled.span`
@@ -74,6 +86,7 @@ export const PlanValue = styled.span`
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
 
   font-size: 1.5rem;
 

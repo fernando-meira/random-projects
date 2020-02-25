@@ -1,28 +1,37 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  max-width: 50%;
+
   display: flex;
   align-items: center;
   flex-direction: column;
 
   background: #7c78d7;
-
-  h2 {
-    color: #fff;
-    font-weight: 200;
-    font-size: 1.5rem;
-  }
 `;
 
 export const LogoDescription = styled.div`
+  margin-top: 10rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   img {
-    margin-top: 6rem;
-    max-width: 19rem;
+    max-width: 18rem;
   }
 
   h1 {
+    margin-bottom: 10rem;
+
     color: #fff;
-    font-weight: 200;
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
   }
 `;

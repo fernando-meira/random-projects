@@ -1,7 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 
-import background from '../assets/images/background.png';
-
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -13,13 +11,14 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
+    width: 100%;
     margin: 0 auto;
-    max-width: 63.75rem;
-    padding: 0 1.25rem 3.125rem;
+    /* max-width: 63.75rem; */
+    /* padding: 0 1.25rem 3.125rem; */
   }
 
   body {
-    background: ${background};
+    background: #fff;
     -webkit-font-smothing: antialiased !important;
   }
 
@@ -28,9 +27,10 @@ export default createGlobalStyle`
   }
 
   #root {
+    width: 100%;
     margin: auto;
-    max-width: 1020px;
-    padding: 0 20px 50px;
+    /* max-width: 1020px; */
+    /* padding: 0 20px 50px; */
   }
 
   button {

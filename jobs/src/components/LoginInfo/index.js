@@ -11,11 +11,11 @@ export default function LoginInfo() {
         <img src={LogoInfo} alt="Logo Fatec Jobs" />
 
         <h1>Bem vindo ao Fatec Jobs</h1>
-      </LogoDescription>
 
-      <h2>
-        Nessa plataforma você encontrará as melhores oportunidades de estágio.
-      </h2>
+        <h2>
+          Nessa plataforma você encontrará as melhores oportunidades de estágio.
+        </h2>
+      </LogoDescription>
     </Container>
   );
 }

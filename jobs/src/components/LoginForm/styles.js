@@ -8,6 +8,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  p {
+    font-size: 4rem;
+    font-weight: 100;
+  }
 `;
 
 export const FormLogin = styled.form`

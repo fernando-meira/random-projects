@@ -1,11 +1,20 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, FormLogin } from './styles';
 
 export default function LoginForm() {
   return (
     <Container>
-      <h1>Aqui é o formulário de login</h1>
+      <p>Log In</p>
+      <FormLogin>
+        <input
+          type="text"
+          placeholder="fernando.santos121@fatecitapetininga.edu.br"
+        />
+        <input type="password" placeholder="********" />
+
+        <button type="submit">Entrar</button>
+      </FormLogin>
     </Container>
   );
 }

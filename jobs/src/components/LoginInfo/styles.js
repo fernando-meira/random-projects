@@ -11,6 +11,7 @@ export const Container = styled.div`
 `;
 
 export const LogoDescription = styled.div`
+  padding: 1rem;
   margin-top: 10rem;
 
   display: flex;
@@ -26,6 +27,8 @@ export const LogoDescription = styled.div`
 
     color: #fff;
     font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
   }
 
   h2 {

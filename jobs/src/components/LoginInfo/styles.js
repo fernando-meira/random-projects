@@ -20,6 +20,7 @@ export const LogoDescription = styled.div`
 
   img {
     max-width: 18rem;
+    margin-bottom: 0.5rem;
   }
 
   h1 {

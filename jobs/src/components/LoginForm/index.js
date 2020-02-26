@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaUserCircle, FaUnlockAlt } from 'react-icons/fa';
 
 import { Container, FormLogin } from './styles';
 

@@ -24,25 +24,19 @@ export const FormLogin = styled.form`
   align-items: center;
   flex-direction: column;
 
-  div {
+  > span {
+    width: 80%;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
-    width: 80%;
-    height: 2.5rem;
-    margin-bottom: 2rem;
-    border: 1px solid #7c78d7;
-    border-radius: 1.5rem;
-
-    svg {
-      margin: 0.5rem;
-    }
-
-    input {
-      flex: 1;
-      border: none;
-
-      background: transparent;
+    a {
+      color: #000;
+      font-size: 0.8rem;
+      text-decoration: none;
     }
   }
 
@@ -54,5 +48,27 @@ export const FormLogin = styled.form`
 
     color: #fff;
     background: #7c78d7;
+  }
+`;
+
+export const InputModel = styled.div`
+  display: flex;
+  align-items: center;
+
+  width: 80%;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #7c78d7;
+  border-radius: 1.5rem;
+
+  svg {
+    margin: 0.5rem;
+  }
+
+  input {
+    flex: 1;
+    border: none;
+
+    background: transparent;
   }
 `;

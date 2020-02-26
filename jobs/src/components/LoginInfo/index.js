@@ -13,7 +13,8 @@ export default function LoginInfo() {
         <h1>Bem vindo ao Fatec Jobs</h1>
 
         <h2>
-          Nessa plataforma você encontrará as melhores oportunidades de estágio.
+          Aluno Fatec, nessa plataforma você encontrará as melhores
+          oportunidades.
         </h2>
       </LogoDescription>
     </Container>

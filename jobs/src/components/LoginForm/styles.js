@@ -24,13 +24,26 @@ export const FormLogin = styled.form`
   align-items: center;
   flex-direction: column;
 
-  input {
+  div {
+    display: flex;
+    align-items: center;
+
     width: 80%;
-    padding: 1rem;
     height: 2.5rem;
     margin-bottom: 2rem;
     border: 1px solid #7c78d7;
-    border-radius: 20px;
+    border-radius: 1.5rem;
+
+    svg {
+      margin: 0.5rem;
+    }
+
+    input {
+      flex: 1;
+      border: none;
+
+      background: transparent;
+    }
   }
 
   button {

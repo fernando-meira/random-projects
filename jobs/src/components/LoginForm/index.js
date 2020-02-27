@@ -6,6 +6,10 @@ import { FaUserCircle, FaUnlockAlt } from 'react-icons/fa';
 import { Container, FormLogin, InputModel } from './styles';
 
 export default function LoginForm() {
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
     <Container>
       <p>Log In</p>
@@ -25,10 +29,11 @@ export default function LoginForm() {
 
         <span>
           <Link to="http://">Esqueceu a senha?</Link>
-          <Link to="http://">Não sabe como entrar?</Link>
         </span>
 
-        <button type="submit">Entrar</button>
+        <button type="submit" onClick={handleSubmit}>
+          Entrar
+        </button>
       </FormLogin>
     </Container>
   );

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
   height: auto;
@@ -38,6 +39,10 @@ export const FormLogin = styled.form`
       font-size: 0.8rem;
       text-decoration: none;
     }
+
+    ${media.lessThan('small')`
+      width: 23rem;
+    `}
   }
 
   button {

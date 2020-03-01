@@ -11,8 +11,8 @@ export const Container = styled.div`
   background: #7c78d7;
 
   ${media.lessThan('small')`
-    max-width: 100%;
     height: 50vh;
+    max-width: 100%;
   `}
 `;
 

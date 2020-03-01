@@ -4,22 +4,23 @@ import media from 'styled-media-query';
 
 export const Container = styled.div`
   height: auto;
-  max-width: 50%;
   margin: 0 auto;
+  max-width: 50%;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 
   p {
+    margin: 10rem 0 2rem 0;
+
     font-size: 4rem;
     font-weight: 100;
-    margin: 10rem 0 2rem 0;
   }
 
   ${media.lessThan('small')`
-    max-width: 100%;
     height: 50vh;
+    max-width: 100%;
 
     min-width: 80%;
 

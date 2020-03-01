@@ -16,10 +16,7 @@ export default function LoginForm() {
       <FormLogin>
         <InputModel>
           <FaUserCircle size="24" color="7c78d7" />
-          <input
-            type="text"
-            placeholder="fernando.santos121@fatecitapetininga.edu.br"
-          />
+          <input type="text" placeholder="thomwork@outlook.com" />
         </InputModel>
 
         <InputModel>

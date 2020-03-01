@@ -18,8 +18,16 @@ export const Container = styled.div`
   }
 
   ${media.lessThan('small')`
-    width: 100%;
-    max-width:100%;
+    max-width: 100%;
+    height: 50vh;
+
+    min-width: 80%;
+
+    p {
+      margin: 1rem auto;
+
+      font-size: 2rem;
+    }
   `}
 `;
 
@@ -38,22 +46,13 @@ export const FormLogin = styled.form`
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     a {
       color: #333;
       font-size: 0.8rem;
       text-decoration: none;
     }
-
-    ${media.lessThan('small')`
-      width: 100%;
-
-      overflow: hidden;
-
-      span{
-      margin: 0 auto;
-      }
-    `}
   }
 
   button {
@@ -70,6 +69,22 @@ export const FormLogin = styled.form`
       background: ${darken(0.1, '#7c78d7')};
     }
   }
+
+  ${media.lessThan('small')`
+    width: 100%;
+    height:50vh;
+
+    span {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      width: 8rem;
+      padding: 0.8rem;
+    }
+  `}
 `;
 
 export const InputModel = styled.div`
@@ -94,6 +109,7 @@ export const InputModel = styled.div`
   }
 
   ${media.lessThan('small')`
-    width: 50%;
+    width: 100%;
+    margin-bottom: 1rem;
   `}
 `;

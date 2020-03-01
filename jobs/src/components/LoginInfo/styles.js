@@ -9,6 +9,11 @@ export const Container = styled.div`
   flex-direction: column;
 
   background: #7c78d7;
+
+  ${media.lessThan('small')`
+    max-width: 100%;
+    height: 50vh;
+  `}
 `;
 
 export const LogoDescription = styled.div`
@@ -39,4 +44,26 @@ export const LogoDescription = styled.div`
     font-size: 1.5rem;
     text-align: center;
   }
+
+  ${media.lessThan('small')`
+    margin: auto;
+
+    img {
+      max-width: 10rem;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+
+      font-size: 1rem;
+    }
+
+    h2 {
+      width: 100%;
+
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+  `}
 `;

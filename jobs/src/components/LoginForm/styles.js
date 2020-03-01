@@ -16,6 +16,11 @@ export const Container = styled.div`
     font-weight: 100;
     margin: 10rem 0 2rem 0;
   }
+
+  ${media.lessThan('small')`
+    width: 100%;
+    max-width:100%;
+  `}
 `;
 
 export const FormLogin = styled.form`
@@ -41,7 +46,13 @@ export const FormLogin = styled.form`
     }
 
     ${media.lessThan('small')`
-      width: 23rem;
+      width: 100%;
+
+      overflow: hidden;
+
+      span{
+      margin: 0 auto;
+      }
     `}
   }
 
@@ -81,4 +92,8 @@ export const InputModel = styled.div`
 
     background: transparent;
   }
+
+  ${media.lessThan('small')`
+    width: 50%;
+  `}
 `;

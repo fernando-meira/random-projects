@@ -6,7 +6,7 @@ module.exports = {
   extends: ["plugin:react/recommended", "airbnb", "prettier", "prettier/react"],
   globals: {
     Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
+    Sha#1d2433ArrayBuffer: "readonly"
   },
   parser: "babel-eslint",
   parserOptions: {

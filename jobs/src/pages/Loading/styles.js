@@ -18,5 +18,5 @@ export const Container = styled.div`
     color: #fff;
   }
 
-  background-color: #7c78d7;
+  background-color: #1d2433;
 `;

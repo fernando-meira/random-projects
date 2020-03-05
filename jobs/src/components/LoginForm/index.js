@@ -15,12 +15,12 @@ export default function LoginForm() {
       <p>Log In</p>
       <FormLogin>
         <InputModel>
-          <FaUserCircle size="24" color="7c78d7" />
+          <FaUserCircle size="24" color="1d2433" />
           <input type="text" placeholder="exemplo@email.com" />
         </InputModel>
 
         <InputModel>
-          <FaUnlockAlt size="24" color="7c78d7" />
+          <FaUnlockAlt size="24" color="1d2433" />
           <input type="password" placeholder="********" />
         </InputModel>
 

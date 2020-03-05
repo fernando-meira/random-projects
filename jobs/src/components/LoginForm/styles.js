@@ -63,11 +63,11 @@ export const FormLogin = styled.form`
     /* border-radius: 25px; */
 
     color: #fff;
-    background: #7c78d7;
+    background: #1d2433;
     transition: background 0.5s;
 
     &:hover {
-      background: ${darken(0.1, '#7c78d7')};
+      background: ${darken(0.1, '#1d2433')};
     }
   }
 
@@ -95,7 +95,7 @@ export const InputModel = styled.div`
   width: 80%;
   height: 2.5rem;
   margin-bottom: 2rem;
-  border: 1px solid #7c78d7;
+  border: 1px solid #1d2433;
   /* border-radius: 1.5rem; */
 
   svg {

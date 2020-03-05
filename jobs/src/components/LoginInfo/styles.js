@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
-  background: #7c78d7;
+  background: #1d2433;
 
   ${media.lessThan('small')`
     height: 50vh;

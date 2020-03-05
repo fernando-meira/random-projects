@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import { FaUserCircle, FaUnlockAlt } from 'react-icons/fa';
+
+import { SocialMedia } from '../index';
 
 import { Container, FormLogin, InputModel } from './styles';
 
@@ -32,6 +33,8 @@ export default function LoginForm() {
           Entrar
         </button>
       </FormLogin>
+
+      <SocialMedia />
     </Container>
   );
 }
